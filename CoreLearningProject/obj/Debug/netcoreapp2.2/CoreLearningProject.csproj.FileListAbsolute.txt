@@ -1,0 +1,11 @@
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\bin\Debug\netcoreapp2.2\CoreLearningProject.deps.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\bin\Debug\netcoreapp2.2\CoreLearningProject.runtimeconfig.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\bin\Debug\netcoreapp2.2\CoreLearningProject.runtimeconfig.dev.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\bin\Debug\netcoreapp2.2\CoreLearningProject.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\bin\Debug\netcoreapp2.2\CoreLearningProject.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.AssemblyInfoInputs.cache
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.AssemblyInfo.cs
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject\obj\Debug\netcoreapp2.2\CoreLearningProject.csprojAssemblyReference.cache

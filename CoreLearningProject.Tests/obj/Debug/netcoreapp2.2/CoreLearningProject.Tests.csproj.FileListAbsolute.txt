@@ -1,0 +1,17 @@
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.Tests.deps.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.Tests.runtimeconfig.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.Tests.runtimeconfig.dev.json
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.Tests.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.Tests.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.csprojAssemblyReference.cache
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.AssemblyInfoInputs.cache
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.AssemblyInfo.cs
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.dll
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\bin\Debug\netcoreapp2.2\CoreLearningProject.pdb
+C:\Users\Benjamin.Fenton\source\repos\CoreLearningProject\CoreLearningProject.Tests\obj\Debug\netcoreapp2.2\CoreLearningProject.Tests.csproj.CopyComplete
