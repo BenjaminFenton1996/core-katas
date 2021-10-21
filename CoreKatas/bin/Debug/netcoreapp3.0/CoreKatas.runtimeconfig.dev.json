@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Vegeta\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Vegeta\\.nuget\\packages"
+    ]
+  }
+}
