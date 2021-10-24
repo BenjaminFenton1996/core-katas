@@ -17,7 +17,7 @@ namespace CoreKatas
         /// <returns>The name of the person who drinks the n-th can of cola</returns>
         public static string WhoIsNext(string[] names, long colaNumber)
         {
-            //Use this dictionary to track of how many clones there are of each person without using up loads of memory
+            //Use this dictionary to track how many clones there are of each person without using up loads of memory
             Dictionary<string, long> CloneTracker = new Dictionary<string, long>();
             foreach (var name in names)
             {
@@ -28,7 +28,7 @@ namespace CoreKatas
             {
                 foreach (var name in names.ToList())
                 {
-                    //Increment i for each clone and check if the cola belongs to one of them
+                    //Check if the cola belongs to one of the clone groups
                     if (i <= colaNumber && colaNumber <= i + CloneTracker[name])
                     {
                         return name;
