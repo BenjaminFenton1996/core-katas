@@ -7,9 +7,9 @@ namespace CoreKatas.Tests
 {
     class DoubleColaKataTests
     {
-        private static List<string> GetQueueNames()
+        private static string[] GetQueueNames()
         {
-            return new List<string> { "Ben", "Keegan", "Rascal", "Lou", "Liam" };
+            return new string[] { "Ben", "Keegan", "Rascal", "Lou", "Liam" };
         }
 
         [Test]

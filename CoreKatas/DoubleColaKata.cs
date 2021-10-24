@@ -15,7 +15,7 @@ namespace CoreKatas
         /// <param name="names">The names of the people in the queue</param>
         /// <param name="colaNumber">The n-th can of cola</param>
         /// <returns>The name of the person who drinks the n-th can of cola</returns>
-        public static string WhoIsNext(List<string> names, long colaNumber)
+        public static string WhoIsNext(string[] names, long colaNumber)
         {
             //Use this dictionary to track of how many clones there are of each person without using up loads of memory
             Dictionary<string, long> CloneTracker = new Dictionary<string, long>();
@@ -29,15 +29,13 @@ namespace CoreKatas
                 foreach (var name in names.ToList())
                 {
                     //Increment i for each clone and check if the cola belongs to one of them
-                    for (long x = 1; x <= CloneTracker[name]; x++)
+                    if (i <= colaNumber && colaNumber <= i + CloneTracker[name])
                     {
-                        if (i + 1 == colaNumber)
-                        {
-                            return name;
-                        }
-                        i++;
+                        return name;
                     }
+                    i += CloneTracker[name];
 
+                    //Cloning the clones means doubling the tracker counter each time
                     CloneTracker[name] = CloneTracker[name] * 2;
                 }
             }
