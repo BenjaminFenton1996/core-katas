@@ -5298,11 +5298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
       "projectName": "CoreKatas.Tests",
-      "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
+      "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
       "packagesPath": "C:\\Users\\Vegeta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vegeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5319,8 +5319,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas\\CoreKatas.csproj": {
-              "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas\\CoreKatas.csproj"
+            "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas\\CoreKatas.csproj": {
+              "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas\\CoreKatas.csproj"
             }
           }
         }

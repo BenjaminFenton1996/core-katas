@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2QDtxgcgEj93s9LhyN4yUFNavcYONUhqoR5Q/48hDmBWkAs2ucRJ8ZmRQfav/XFCV2BKFtSWJx0eTQv7tdsE2A==",
+  "dgSpecHash": "SnSnk38ypPrTL1ClspQyfsGFQh2IFlDW0DwGh/ZqCFNwUabSn7pUz/vYlhUy4loG0U591vdUdjxj0uYSO3km5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas.Tests\\CoreKatas.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vegeta\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\Vegeta\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

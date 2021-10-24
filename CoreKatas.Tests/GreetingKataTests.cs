@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace CoreKatas.Tests
 {
-    public class GreetingKataTests
+    class GreetingKataTests
     {
         [Test]
         public void TestGreetWithName()

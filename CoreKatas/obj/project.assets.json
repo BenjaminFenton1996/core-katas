@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas\\CoreKatas.csproj",
+      "projectUniqueName": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas\\CoreKatas.csproj",
       "projectName": "CoreKatas",
-      "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas\\CoreKatas.csproj",
+      "projectPath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas\\CoreKatas.csproj",
       "packagesPath": "C:\\Users\\Vegeta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vegeta\\source\\repos\\CoreLearningProject\\CoreKatas\\obj\\",
+      "outputPath": "C:\\Users\\Vegeta\\source\\repos\\CoreKatas\\CoreKatas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vegeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
