@@ -8,7 +8,7 @@ namespace CoreKatas.Tests
     class ShoppingBasketKataTests
     {
         [Test]
-        public void BuyingOneItemTest()
+        public void TestBuyingOneItem()
         {
             var items = new List<string>
             {
@@ -18,7 +18,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingTwoItemsTest()
+        public void TestBuyingTwoItems()
         {
             var items = new List<string>
             {
@@ -29,7 +29,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingTwoOfSameItemTest()
+        public void TestBuyingTwoOfSameItem()
         {
             var items = new List<string>
             {
@@ -40,7 +40,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingThreeOfSameItemTest()
+        public void TestBuyingThreeOfSameItem()
         {
             var items = new List<string>
             {
@@ -52,7 +52,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingFourOfSameItemTest()
+        public void TestBuyingFourOfSameItem()
         {
             var items = new List<string>
             {
@@ -65,7 +65,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingFourOfSameItemAndAnotherItemTest()
+        public void TestBuyingFourOfSameItemAndAnotherItem()
         {
             var items = new List<string>
             {
@@ -79,7 +79,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingTenOfSameItemTest()
+        public void TestBuyingTenOfSameItem()
         {
             var items = new List<string>
             {
@@ -98,7 +98,7 @@ namespace CoreKatas.Tests
         }
 
         [Test]
-        public void BuyingFiveSameFiveDifferentItemsTest()
+        public void TestBuyingFiveSameFiveDifferentItems()
         {
             var items = new List<string>
             {
