@@ -5,24 +5,15 @@ using System.Collections.Generic;
 
 namespace CoreKatas.Tests
 {
+    [TestFixture]
     class GreetingKataTests
     {
-        [Test]
-        public void TestGreetWithName()
+        [TestCase("Bob", "Hello, Bob.")]
+        [TestCase("", "Hello, my friend.")]
+        [TestCase("BOB", "HELLO BOB!")]
+        public void TestGreet(string value, string expected)
         {
-            Assert.AreEqual("Hello, Bob.", GreetingKata.Greet("Bob"));
-        }
-
-        [Test]
-        public void TestGreetWithNoName()
-        {
-            Assert.AreEqual("Hello, my friend.", GreetingKata.Greet(""));
-        }
-
-        [Test]
-        public void TestGreetWithNameAllUppercase()
-        {
-            Assert.AreEqual("HELLO BOB!", GreetingKata.Greet("BOB"));
+            Assert.AreEqual(expected, GreetingKata.Greet(value));
         }
 
         [Test]

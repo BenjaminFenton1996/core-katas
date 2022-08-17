@@ -5,60 +5,20 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
+    [TestFixture]
     class RomanNumeralsKataTests
     {
-        [Test]
-        public void TestOneToRomanNumerals()
+        [TestCase(1, "I")]
+        [TestCase(5, "V")]
+        [TestCase(10, "X")]
+        [TestCase(18, "XVIII")]
+        [TestCase(44, "XLIV")]
+        [TestCase(77, "LXXVII")]
+        [TestCase(188, "CLXXXVIII")]
+        [TestCase(3492, "MMMCDXCII")]
+        public void TestRomanNumerals(int value, string expected)
         {
-            Assert.AreEqual("I", RomanNumeralsKata.IntegerToRomanNumerals(1));
-        }
-
-        [Test]
-        public void TestFiveToRomanNumerals()
-        {
-            Assert.AreEqual("V", RomanNumeralsKata.IntegerToRomanNumerals(5));
-        }
-
-        [Test]
-        public void TestTenToRomanNumerals()
-        {
-            Assert.AreEqual("X", RomanNumeralsKata.IntegerToRomanNumerals(10));
-        }
-
-        [Test]
-        public void TestEighteenToRomanNumeral()
-        {
-            Assert.AreEqual("XVIII", RomanNumeralsKata.IntegerToRomanNumerals(18));
-        }
-
-        [Test]
-        public void TestFourtyFourToRomanNumeral()
-        {
-            Assert.AreEqual("XLIV", RomanNumeralsKata.IntegerToRomanNumerals(44));
-        }
-
-        [Test]
-        public void TestSeventySevenToRomanNumeral()
-        {
-            Assert.AreEqual("LXXVII", RomanNumeralsKata.IntegerToRomanNumerals(77));
-        }
-
-        [Test]
-        public void TestHundredEightyEightToRomanNumeral()
-        {
-            Assert.AreEqual("CLXXXVIII", RomanNumeralsKata.IntegerToRomanNumerals(188));
-        }
-
-        [Test]
-        public void TestFiveHundredFourtyNineToRomanNumeral()
-        {
-            Assert.AreEqual("DXLIX", RomanNumeralsKata.IntegerToRomanNumerals(549));
-        }
-
-        [Test]
-        public void TestThreeThousandFourHundredNinetyTwoToRomanNumeral()
-        {
-            Assert.AreEqual("MMMCDXCII", RomanNumeralsKata.IntegerToRomanNumerals(3492));
+            Assert.AreEqual(expected, RomanNumeralsKata.IntegerToRomanNumerals(value));
         }
     }
 }
