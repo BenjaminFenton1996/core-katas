@@ -7,6 +7,13 @@ namespace CoreKatas
 {
     public static class ArrayDifferenceKata
     {
+        /// <summary>
+        /// Takes two arrays (a and b) and removes all occurrences of values in b from a and returns the result
+        /// This function is slightly faster but has many more lines
+        /// </summary>
+        /// <param name="a">Array to perform the difference operation on</param>
+        /// <param name="b">All occurrences of values in this array will be removed from array a</param>
+        /// <returns>Array a with all values that existed in b removed</returns>
         public static int[] ArrayDiffPerformant(int[] a, int[] b)
         {
             var processedList = new List<int>();
@@ -33,6 +40,13 @@ namespace CoreKatas
             return processedArray;
         }
 
+        /// <summary>
+        /// Takes two arrays (a and b) and removes all occurrences of values in b from a and returns the result
+        /// This function accomplishes the task in few lines but is slightly slower
+        /// </summary>
+        /// <param name="a">Array to perform the difference operation on</param>
+        /// <param name="b">All occurrences of values in this array will be removed from array a</param>
+        /// <returns>Array a with all values that existed in b removed</returns>
         public static int[] ArrayDiffClean(int[] a, int[] b)
         {
             return a.Where(x => !b.Contains(x)).ToArray();

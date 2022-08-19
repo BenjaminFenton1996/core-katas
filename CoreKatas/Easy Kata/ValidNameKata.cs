@@ -8,6 +8,14 @@ namespace CoreKatas
 {
     public static class ValidNameKata
     {
+        /// <summary>
+        /// Names must have a length of 4 or more
+        /// Names must start with a letter
+        /// Names must consist of only letters, numbers and optionally one underscore
+        /// Names must not end with an underscore
+        /// </summary>
+        /// <param name="name">The string to check the validity of as a name</param>
+        /// <returns>Bool indicating whether the name is valid or not</returns>
         public static bool IsNameValid(string name)
         {
             if (name.Length < 4)

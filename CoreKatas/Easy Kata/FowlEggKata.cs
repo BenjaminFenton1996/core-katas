@@ -4,6 +4,7 @@ using System.Text;
 
 namespace CoreKatas
 {
+    //Just playing around with Func stuff by making birds lay eggs
     public class Goose : IFowl
     {
         public Goose CreateGoose()

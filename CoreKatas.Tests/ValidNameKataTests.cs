@@ -7,11 +7,7 @@ namespace CoreKatas.Tests
 {
     [TestFixture]
     internal class ValidNameKataTests
-    {
-        //Names must have a length of 4 or more
-        //Names must start with a letter
-        //Names must consist of only letters, numbers and optionally one underscore
-        //Names must not end with an underscore
+    {      
         [TestCase(true, "Steve_Guy")]
         [TestCase(true, "Steve_Guy1")]
         [TestCase(false, "Bob")]

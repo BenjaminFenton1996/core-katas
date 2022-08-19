@@ -7,7 +7,7 @@ namespace CoreKatas.Tests
 {
     [TestFixture]
     internal class ArrayDifferenceKataTests
-    {
+    {        
         [Test]
         public void TestDifferencePerformant()
         {
