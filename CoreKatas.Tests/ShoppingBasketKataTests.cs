@@ -5,7 +5,8 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    class ShoppingBasketKataTests
+    [TestFixture]
+    internal class ShoppingBasketKataTests
     {
         [Test]
         public void TestBuyingOneItem()

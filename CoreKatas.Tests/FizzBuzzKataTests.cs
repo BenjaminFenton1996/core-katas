@@ -5,7 +5,8 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    class FizzBuzzKataTests
+    [TestFixture]
+    internal class FizzBuzzKataTests
     {
         [Test]
         public void TestFizzBuzzWithFive()

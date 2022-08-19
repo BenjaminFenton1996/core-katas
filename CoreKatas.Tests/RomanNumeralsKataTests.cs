@@ -8,17 +8,17 @@ namespace CoreKatas.Tests
     [TestFixture]
     class RomanNumeralsKataTests
     {
-        [TestCase(1, "I")]
-        [TestCase(5, "V")]
-        [TestCase(10, "X")]
-        [TestCase(18, "XVIII")]
-        [TestCase(44, "XLIV")]
-        [TestCase(77, "LXXVII")]
-        [TestCase(188, "CLXXXVIII")]
-        [TestCase(3492, "MMMCDXCII")]
-        public void TestRomanNumerals(int value, string expected)
+        [TestCase(1, ExpectedResult = "I")]
+        [TestCase(5, ExpectedResult = "V")]
+        [TestCase(10, ExpectedResult = "X")]
+        [TestCase(18, ExpectedResult = "XVIII")]
+        [TestCase(44, ExpectedResult = "XLIV")]
+        [TestCase(77, ExpectedResult = "LXXVII")]
+        [TestCase(188, ExpectedResult = "CLXXXVIII")]
+        [TestCase(3492, ExpectedResult = "MMMCDXCII")]
+        public string TestRomanNumerals(int value)
         {
-            Assert.AreEqual(expected, RomanNumeralsKata.IntegerToRomanNumerals(value));
+            return RomanNumeralsKata.IntegerToRomanNumerals(value);
         }
     }
 }

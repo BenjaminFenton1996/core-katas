@@ -5,30 +5,16 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    public class CalculatorKataTests
+    [TestFixture]
+    internal class CalculatorKataTests
     {
-        [Test]
-        public void TestSimpleAddition()
+        [TestCase(21, "10.5 + 10.5")]
+        [TestCase(6, "10 - 4")]
+        [TestCase(100, "10 * 10")]
+        [TestCase(5, "50 / 10")]
+        public void TestCalculator(int expected, string value)
         {
-            Assert.AreEqual(21, CalculatorKata.Calculate("10.5 + 10.5"));
-        }
-
-        [Test]
-        public void TestSimpleSubtraction()
-        {
-            Assert.AreEqual(6, CalculatorKata.Calculate("10 - 4"));
-        }
-
-        [Test]
-        public void TestSimpleMultiplication()
-        {
-            Assert.AreEqual(100, CalculatorKata.Calculate("10 * 10"));
-        }
-
-        [Test]
-        public void TestSimpleDivision()
-        {
-            Assert.AreEqual(5, CalculatorKata.Calculate("50 / 10"));
+            Assert.AreEqual(expected, CalculatorKata.Calculate(value));
         }
     }
 }

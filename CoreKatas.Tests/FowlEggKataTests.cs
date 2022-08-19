@@ -5,7 +5,8 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    class FowlEggKataTests
+    [TestFixture]
+    internal class FowlEggKataTests
     {
         [Test]
         public void TestGooseLayEgg()

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace CoreKatas.Tests
 {
     [TestFixture]
-    class GreetingKataTests
+    internal class GreetingKataTests
     {
         [TestCase("Bob", "Hello, Bob.")]
         [TestCase("", "Hello, my friend.")]

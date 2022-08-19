@@ -5,47 +5,23 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    class DoubleColaKataTests
+    [TestFixture]
+    internal class DoubleColaKataTests
     {
         private static string[] GetQueueNames()
         {
             return new string[] { "Ben", "Keegan", "Rascal", "Lou", "Liam" };
         }
 
-        [Test]
-        public void TestWhoGetsColaOne()
+        [TestCase("Ben", 1)]
+        [TestCase("Lou", 4)]
+        [TestCase("Lou", 12)]
+        [TestCase("Rascal", 52)]
+        [TestCase("Rascal", 1802)]
+        [TestCase("Keegan", 7230702951)]
+        public void TestWhoGetsCola(string expected, long value)
         {
-            Assert.AreEqual("Ben", DoubleColaKata.WhoIsNext(GetQueueNames(), 1));
-        }
-
-        [Test]
-        public void TestWhoGetsColaFour()
-        {
-            Assert.AreEqual("Lou", DoubleColaKata.WhoIsNext(GetQueueNames(), 4));
-        }
-
-        [Test]
-        public void TestWhoGetsColaTwelve()
-        {
-            Assert.AreEqual("Lou", DoubleColaKata.WhoIsNext(GetQueueNames(), 12));
-        }
-
-        [Test]
-        public void TestWhoGetsColaFiftyTwo()
-        {
-            Assert.AreEqual("Rascal", DoubleColaKata.WhoIsNext(GetQueueNames(), 52));
-        }
-
-        [Test]
-        public void TestWhoGetsColaThousand()
-        {
-            Assert.AreEqual("Rascal", DoubleColaKata.WhoIsNext(GetQueueNames(), 1802));
-        }
-
-        [Test]
-        public void TestWhoGetsColaLong()
-        {
-            Assert.AreEqual("Keegan", DoubleColaKata.WhoIsNext(GetQueueNames(), 7230702951));
+            Assert.AreEqual(expected, DoubleColaKata.WhoIsNext(GetQueueNames(), value));
         }
     }
 }

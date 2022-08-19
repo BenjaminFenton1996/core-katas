@@ -5,14 +5,15 @@ using System.Text;
 
 namespace CoreKatas.Tests
 {
-    class FirstNonRepeatingCharTests
+    [TestFixture]
+    internal class FirstNonRepeatingCharTests
     {
-        [Test]
-        public void FirstNonRepeatingLetterTests()
+        [TestCase("a", "a")]
+        [TestCase("t", "stress")]
+        [TestCase("e", "moonmen")]
+        public void FirstNonRepeatingLetterTests(string expected, string value)
         {
-            Assert.AreEqual("a", FirstNonRepeatingChar.FirstNonRepeatingLetter("a"));
-            Assert.AreEqual("t", FirstNonRepeatingChar.FirstNonRepeatingLetter("stress"));
-            Assert.AreEqual("e", FirstNonRepeatingChar.FirstNonRepeatingLetter("moonmen"));
+            Assert.AreEqual(expected, FirstNonRepeatingChar.FirstNonRepeatingLetter(value));
         }
 
         [Test]
